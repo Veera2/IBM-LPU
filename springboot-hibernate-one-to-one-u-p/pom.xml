@@ -8,15 +8,13 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>springboot-hibernate-one-to-one-unidirectional</artifactId>
+	<groupId>in.ibm</groupId>
+	<artifactId>Springboot-Instructor-hibernate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-hibernate-one-to-one-unidirectional</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Springboot-Instructor-hibernate</name>
+	<description>Spring boot application of instructor with hibernate one to one relationship</description>
 
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
+	
 
 	<dependencies>
 		<dependency>

@@ -7,41 +7,44 @@ import org.springframework.stereotype.Service;
 
 import com.example.dao.InstructorDAO;
 import com.example.entity.Instructor;
+
 @Service
-public class InstructorServiceImpl implements InstructorService
-{ 
+public class InstructorServiceImpl implements InstructorService{
+	
 	@Autowired
 	private InstructorDAO instructorDao;
 
-	
 	@Override
 	public List<Instructor> getInstructors() {
-		// TODO Auto-generated method stub
+		
 		return instructorDao.getInstructors();
 	}
 
 	@Override
 	public Instructor createInstructor(Instructor instructor) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return instructorDao.createInstructor(instructor);
 	}
 
 	@Override
 	public Instructor findInstructorByID(int Id) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return instructorDao.findInstructorByID(Id);
 	}
 
 	@Override
 	public Instructor updateInstructor(Instructor instructor) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return instructorDao.updateInstructor(instructor);
 	}
 
 	@Override
 	public Instructor deleteInstructor(int id) {
-		// TODO Auto-generated method stub
-		return null;
+	
+		return instructorDao.deleteInstructor(id);
 	}
+	
+	
+	
 
 }
